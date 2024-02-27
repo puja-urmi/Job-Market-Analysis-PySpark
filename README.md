@@ -1,1 +1,1 @@
-# Canadian-Job-Insights
+# Job-Insights
