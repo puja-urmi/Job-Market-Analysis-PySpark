@@ -1,16 +1,16 @@
 # Exploratory Analysis of Job Market Trends and Salary Prediction using PySpark
 This project embarks on an in-depth exploration of job market data utilizing PySpark, a powerful tool known for its scalability and efficiency in handling vast datasets. The primary goal is to unveil hidden insights and discernible patterns within the dynamic job market landscape.
 
-Data: A big dataset has been collected from Kaggle, spanning over 1.6 million records with 23 features, covering a period from September 2021 to September 2023, sourced globally.
+Data:  A big dataset comprising over 1.6 million global records with 23 features spanning 25 months from September 2021 to September 2023 was collected from Kaggle. You can get the data here: https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset
 
 ## Project Overview
-I have seperated this project in several notebooks for individual task, starting from data engineering sequentially. notebooks are in the same name. 
+PS: I have structured this project into multiple notebooks, each dedicated to a specific task, starting from data engineering and arranged in a sequential manner. The names of the notebooks correspond to the sections mentioned below. This project was developed using the PySpark's Python library, in a macOS, which required installation of java environment. It's important to acknowledge that there might be compatibility issues in Linux and Windows environments, which could require the installation of the Hadoop framework.
 
 1. Data Engineering: 
 Title: Data Engineering to Preprocess Data for EDA of Job Market
 
 Notebook Breakdown: 
-- Installing and Importing Required Resources: All necessary resources, including PySpark, will be installed and imported to facilitate the project's subsequent stages.
+- Installing and Importing Required Resources: All necessary resources, including PySpark, will be installed and imported to facilitate the project's subsequent stages. Othern than these you will need to install Java in your system to run this. 
 - Loading Data: The CSV data file will be loaded to initiate data exploration and preprocessing using PySpark functionalities.
 - Removing Unnecessary Features: Only the most valuable features for analysis will be retained, while less significant columns will be discarded.
 - Handling Missing Values: Various techniques will be employed to effectively address missing values, ensuring minimal impact on analysis outcomes.
