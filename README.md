@@ -1,19 +1,29 @@
 # Exploratory Analysis of Job Market Trends and Salary Prediction using PySpark
 This project embarks on an in-depth exploration of job market data utilizing PySpark, a powerful tool known for its scalability and efficiency in handling vast datasets. The primary goal is to unveil hidden insights and discernible patterns within the dynamic job market landscape.
 
+Data: A big dataset has been collected from Kaggle, spanning over 1.6 million records with 23 features, covering a period from September 2021 to September 2023, sourced globally.
+
 ## Project Overview
-The project begins with the meticulous acquisition and preprocessing of job market data sourced from diverse repositories, including CSV files and databases. Key steps encompass data cleaning procedures such as addressing missing values, standardizing data types, and eliminating duplicates to ensure dataset integrity and reliability.
+I have seperated this project in several notebooks for individual task, starting from data engineering sequentially. notebooks are in the same name. 
 
-- Data Acquisition: A sizable dataset has been collected from Kaggle, spanning over 1.6 million records with 23 features, covering a period of 25 months from September 2021 to September 2023, sourced globally.
+1. Data Engineering: 
+Title: Data Engineering to Preprocess Data for EDA of Job Market
 
-- Data Engineering: Before delving into analysis, essential data engineering tasks are undertaken to ensure data integrity and usability.
+Notebook Breakdown: 
+- Installing and Importing Required Resources: All necessary resources, including PySpark, will be installed and imported to facilitate the project's subsequent stages.
+- Loading Data: The CSV data file will be loaded to initiate data exploration and preprocessing using PySpark functionalities.
+- Removing Unnecessary Features: Only the most valuable features for analysis will be retained, while less significant columns will be discarded.
+- Handling Missing Values: Various techniques will be employed to effectively address missing values, ensuring minimal impact on analysis outcomes.
+- Splitting Range Data: Ranges such as salary or experience ranges will be segregated into separate columns to facilitate analysis.
+- Eliminating Duplicate Features: Duplicate entries and extraneous features will be identified and removed to enhance dataset quality. Any blank entries will be identified and handled appropriately.
+- Data Type Conversion: Ensuring accurate data types for each feature is crucial for conducting precise analysis.
+- Saving the Processed Data: After completing all preprocessing steps, the new DataFrame will be saved as a CSV file for further analysis in subsequent notebooks.
 
-  - Handling Missing Values: Various techniques are employed to address missing values, ensuring minimal impact on analysis outcomes.
-  - Data Type Conversion: Ensuring correct data types for each feature is crucial for accurate analysis.
-  - Range Data Splitting: Ranges, such as salary or experience ranges, are split into separate columns to facilitate analysis.
-  - Encoding: One-hot encoding is applied where necessary to enable effective analysis.
+By meticulously executing these preprocessing steps, the dataset will be prepared for in-depth analysis, ensuring robustness and reliability in uncovering actionable insights into the dynamic job market landscape.
 
-- Descriptive Statistics: Leveraging PySpark's DataFrame operations, descriptive statistics are computed to understand the distribution of key variables such as job titles, salaries, and geographical locations, providing a solid foundation for further analysis.
+
+2. Descriptive Statistics:
+   Leveraging PySpark's DataFrame operations, descriptive statistics are computed to understand the distribution of key variables such as job titles, salaries, and geographical locations, providing a solid foundation for further analysis.
 
 - Exploring Job Market Trends: Trends in job postings are meticulously examined by aggregating data on job types, degree types, work types, and preferences. Visual representations such as bar plots reveal significant trends and fluctuations within the job market landscape.
 
