@@ -44,7 +44,17 @@ Title: Exploring Skill, Jobs, and Qualifications Demands in Market using PySpark
 - Least Demanding Jobs: Similarly, the least demanded job titles are explored to understand roles with lower demand or declining relevance in the job market.
 
 
-- Temporal Analysis: PySpark's time-series functionalities are utilized to dissect trends over time. Job postings are aggregated into discrete intervals, enabling the identification and visualization of significant temporal trends using line charts and bar plots.
+## 4. Temporal Analysis
+Title: Exploring Temporal Trends in Job Market using PySpark
+
+## Notebook Breakdown
+- Importing Required Resources , Data Loading and Visualization are similar to previous notebooks
+- Yearly Analysis: For the yearly analysis, trends in job postings aggregated annually are examined. Year-over-year changes are analyzed to identify overarching patterns and shifts in job market activity, providing insights into long-term trends.
+- Monthly Analysis: In the monthly analysis, variations in job postings month by month are explored. Seasonal patterns, peak hiring periods, and potential fluctuations influenced by economic conditions and industry trends are uncovered, offering a granular view of job market dynamics.
+- Weekly Analysis: The weekly analysis dissects job postings on a weekly basis to identify short-term fluctuations, spikes, and dips in job market activity. Weekly hiring patterns and responses to specific events or campaigns are scrutinized to optimize recruitment efforts.
+- Daily Analysis: Daily fluctuations in job postings are scrutinized to identify immediate changes in job market dynamics and responses to external stimuli. The impact of short-term events on job market activity is assessed to adapt recruitment strategies and capitalize on emerging opportunities.
+
+
 
 - Salary Analysis: Salary distributions across job roles and industries are comprehensively analyzed using PySpark's statistical functions. Histograms and box plots visually depict prevailing compensation trends, informing stakeholders with actionable insights.
 
