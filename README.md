@@ -6,12 +6,12 @@ Data:  A big dataset comprising over 1.6 million global records with 23 features
 ## Project Overview
 PS: I have structured this project into multiple notebooks, each dedicated to a specific task, starting from data engineering and arranged in a sequential manner. The names of the notebooks correspond to the sections mentioned below. This project was developed using the PySpark's Python library, in a macOS, which required installation of java environment. It's important to acknowledge that there might be compatibility issues in Linux and Windows environments, which could require the installation of the Hadoop framework.
 
-1. Data Engineering: 
+# 1. Data Engineering: 
 Title: Data Engineering to Preprocess Data for EDA of Job Market
 
-Notebook Breakdown: 
+# Notebook Breakdown: 
 - Installing and Importing Required Resources: All necessary resources, including PySpark, will be installed and imported to facilitate the project's subsequent stages. Othern than these you will need to install Java in your system to run this. 
-- Loading Data: The CSV data file will be loaded to initiate data exploration and preprocessing using PySpark functionalities.
+- Loading Data: The CSV data file "job_descriptions.csv" will be loaded to initiate data exploration and preprocessing using PySpark functionalities.
 - Removing Unnecessary Features: Only the most valuable features for analysis will be retained, while less significant columns will be discarded.
 - Handling Missing Values: Various techniques will be employed to effectively address missing values, ensuring minimal impact on analysis outcomes.
 - Splitting Range Data: Ranges such as salary or experience ranges will be segregated into separate columns to facilitate analysis.
@@ -22,10 +22,21 @@ Notebook Breakdown:
 By meticulously executing these preprocessing steps, the dataset will be prepared for in-depth analysis, ensuring robustness and reliability in uncovering actionable insights into the dynamic job market landscape.
 
 
-2. Descriptive Statistics:
-   Leveraging PySpark's DataFrame operations, descriptive statistics are computed to understand the distribution of key variables such as job titles, salaries, and geographical locations, providing a solid foundation for further analysis.
+# 2. Descriptive Statistics:
+Title: Exploring Job Market Trends with Descriptive Statistics in PySpark
 
-- Exploring Job Market Trends: Trends in job postings are meticulously examined by aggregating data on job types, degree types, work types, and preferences. Visual representations such as bar plots reveal significant trends and fluctuations within the job market landscape.
+# Notebook Breakdown: 
+- Importing Required Resources: We begin by importing all necessary resources to support our analysis. Assuming resource installation has been completed in a preceding data processing notebook, we proceed directly to import them here.
+- Data Loading and Visualization: Next, we load the processed data from "processed_job_descriptions.csv" using PySpark. Through PySpark DataFrame operations, we conduct an initial data exploration.
+- Descriptive Statistics: Within this section, we harness PySpark's DataFrame functionalities to explore trends in job postings by Key statistical insights were derived concerning salary, experience, company size, job title, qualifications, country, work type, portal, and preference.
+Through this PySpark exploration, our objective is to furnish stakeholders with actionable insights and a comprehensive understanding of essential features for navigating the intricacies of the modern job market. Following this analysis, we anticipate gaining deeper insights into these features and the entire dataset.
+
+
+
+# 3. Exploring Job Market Trends: 
+Title: Exploring Job Market Demands in PySpark
+
+Trends in job postings are meticulously examined by aggregating data on job types, degree types, work types, and preferences. Visual representations such as bar plots reveal significant trends and fluctuations within the job market landscape.
 
 - Temporal Analysis: PySpark's time-series functionalities are utilized to dissect trends over time. Job postings are aggregated into discrete intervals, enabling the identification and visualization of significant temporal trends using line charts and bar plots.
 
