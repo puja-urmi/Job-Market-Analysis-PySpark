@@ -37,11 +37,11 @@ Title: Exploring Skill, Jobs, and Qualifications Demands in Market using PySpark
 
 ### Notebook Breakdown: 
 - Importing Required Resources , Data Loading and Visualization are similar to previous notebooks
-- Most Demanding Skills:** Leveraging PySpark's robust capabilities, the most in-demand skills are extracted from the dataset. This analysis provides insights into the skills sought after by employers, shedding light on emerging trends and preferences in the job market.
-- Least Demanding Skills:** Conversely, the least demanded skills are identified to discern patterns of declining relevance or niche skill requirements in the market.
-- Most Demanding Qualifications:** The qualifications most frequently requested by employers are examined, highlighting educational backgrounds and credentials preferred in the current job landscape.
-- Most Demanding Jobs:** PySpark is utilized to identify the most sought-after jobs in the market. This analysis offers insights into the types of roles experiencing high demand in current market and provides context for talent acquisition strategies.
-- Least Demanding Jobs:** Similarly, the least demanded job titles are explored to understand roles with lower demand or declining relevance in the job market.
+- Most Demanding Skills: Leveraging PySpark's robust capabilities, the most in-demand skills are extracted from the dataset. This analysis provides insights into the skills sought after by employers, shedding light on emerging trends and preferences in the job market.
+- Least Demanding Skills: Conversely, the least demanded skills are identified to discern patterns of declining relevance or niche skill requirements in the market.
+- Most Demanding Qualifications: The qualifications most frequently requested by employers are examined, highlighting educational backgrounds and credentials preferred in the current job landscape.
+- Most Demanding Jobs: PySpark is utilized to identify the most sought-after jobs in the market. This analysis offers insights into the types of roles experiencing high demand in current market and provides context for talent acquisition strategies.
+- Least Demanding Jobs: Similarly, the least demanded job titles are explored to understand roles with lower demand or declining relevance in the job market.
 
 
 - Temporal Analysis: PySpark's time-series functionalities are utilized to dissect trends over time. Job postings are aggregated into discrete intervals, enabling the identification and visualization of significant temporal trends using line charts and bar plots.
