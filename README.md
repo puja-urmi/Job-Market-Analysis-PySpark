@@ -56,7 +56,17 @@ Title: Exploring Temporal Trends in Job Market using PySpark
 
 
 
-- Salary Analysis: Salary distributions across job roles and industries are comprehensively analyzed using PySpark's statistical functions. Histograms and box plots visually depict prevailing compensation trends, informing stakeholders with actionable insights.
+## 4. Salary Analysis
+Title: Exploring Salary Trends in Job Market using PySpark
+
+## Notebook Breakdown
+- Importing Required Resources , Data Loading and Visualization are similar to previous notebooks
+- Salary Distribution: Descriptive statistics are computed to understand the distribution of salary levels within each industry. Histograms and box plots are employed to visualize the spread and central tendency of salary data.
+- Salary by Job: PySpark is utilized to calculate and visualize the average salary levels across different job roles. This analysis provides insights into salary disparities between various positions.
+- Salary by Industry: PySpark is utilized to calculate and visualize the average salary levels across different industries. This analysis provides insights into salary disparities between various industry sectors.
+- Salary by Country: PySpark is utilized to calculate and visualize the average salary levels across different countries. This analysis provides insights into salary disparities between various regions.
+
+
 
 - Modeling and Salary Predictions: Machine learning models are utilized for salary prediction based on data features, providing valuable predictive insights.
 
