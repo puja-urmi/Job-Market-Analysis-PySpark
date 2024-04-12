@@ -1,8 +1,6 @@
-# Exploratory Analysis of Job Market Trends and Salary Prediction using PySpark
-This project leverages PySpark to analyze job market data for uncovering insights and patterns. 
+# Job Insights: Exploratory Data Analysis and Salary Prediction using PySpark
 
-## Project Overview
-A big dataset comprising over 1.6 million global records with 23 features spanning 25 months from September 2021 to September 2023 was collected from Kaggle. You can get the data here: https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset
+This project leverages PySpark to analyze job market data for uncovering insights and patterns. A big dataset comprising over 1.6 million global records with 23 features spanning 25 months from September 2021 to September 2023 was collected from Kaggle. Available here: https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset
 
 ## 1. Data Engineering to Preprocess Data for EDA of Job Market using PySpark
 
