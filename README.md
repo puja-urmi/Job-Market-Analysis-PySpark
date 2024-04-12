@@ -6,10 +6,9 @@ A big dataset comprising over 1.6 million global records with 23 features spanni
 
 ## 1. Data Engineering to Preprocess Data for EDA of Job Market using PySpark
 
-**Methods**
-In this part, I began by setting up the environment, installing PySpark, and ensuring Java compatibility. Next, I loaded the "job_descriptions.csv" dataset and meticulously preprocessed it, removing redundant features, addressing missing values, and organizing range data. Lastly, I saved the refined dataset for subsequent analysis, ensuring a thorough exploration of the dynamic job market landscape.
-**Results**
-A streamlined CSV file containing the essential data only with reduced size.
+**Methods**: In this part, I began by setting up the environment, installing PySpark, and ensuring Java compatibility. Next, I loaded the "job_descriptions.csv" dataset and meticulously preprocessed it, removing redundant features, addressing missing values, and organizing range data. Lastly, I saved the refined dataset for subsequent analysis, ensuring a thorough exploration of the dynamic job market landscape.
+
+**Results**: A streamlined CSV file containing the essential data only with reduced size.
 
 ## 2. Descriptive Statistics to Exploring Job Market Trends using PySpark
 
