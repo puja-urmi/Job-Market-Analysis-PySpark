@@ -55,7 +55,7 @@ A big dataset comprising over 1.6 million global records with 23 features spanni
 <img width="412" alt="image" src="https://github.com/puja-urmi/Job-Insights-in-PySpark/assets/150852458/c77d74ad-f6d1-41cb-abcc-41cceb6aebae">
 
 
-# 6. Correlation Analysis to Explore Correlations Between Features using PySpark
+## 6. Correlation Analysis to Explore Correlations Between Features using PySpark
 
 **Methods**: The methodology involves converting data types and encoding to ensure numerical compatibility, followed by correlation analysis to assess feature relevance to salary ranges. Less important features identified through correlation are then removed to refine the dataset for enhanced salary prediction accuracy, and the processed data is saved for subsequent model training.
 
@@ -65,11 +65,11 @@ A big dataset comprising over 1.6 million global records with 23 features spanni
 <img width="415" alt="image" src="https://github.com/puja-urmi/Job-Insights-in-PySpark/assets/150852458/21e8d442-f3ea-40ef-a59a-951ad3933d17">
 
 
-# 7. Modeling and Salary Prediction using PySpark
+## 7. Modeling and Salary Prediction using PySpark
 
 **still working on it**
 
-# 8. Modeling and Salary Prediction using Scikit-learn
+## 8. Modeling and Salary Prediction using Scikit-learn
 
 **Methods**: The methodology involves initial data preprocessing steps, including one-hot encoding, feature scaling, and a split into 80:20 for training and testing datasets. Subsequently, various models, ranging from linear regression to XGBoost, are trained and evaluated using 5-fold cross-validation and grid search for hyperparameter tuning. Performance evaluation metrics such as Mean Squared Error and R2 score are employed to assess model performance on the testing set, with visualization facilitated by Matplotlib.
 
