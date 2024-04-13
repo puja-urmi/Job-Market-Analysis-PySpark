@@ -21,10 +21,10 @@ This project leverages PySpark to analyze job market data for uncovering insight
 
 **Results**: The analysis of the top ten most demanding skills, job titles, and qualifications revealed key trends in the contemporary job market. There is a growing emphasis on digital proficiency and technical expertise, with skills like Google Analytics and Python, job titles like UX/UI Designer and Digital Marketing Specialist, and qualifications like BBA and BA dominating the landscape. Conversely, niche skills and specialized roles also hold relevance, indicating diverse opportunities within specific industries. Overall, these insights highlight the dynamic nature of skill demands, job roles, and educational qualifications, reflecting the evolving needs of industries and employers in today's digital age. 
 
-<img width="200" alt="image" src="https://github.com/puja-urmi/Job-Insights-in-PySpark/assets/150852458/5f1c18a6-1266-4a1c-82bc-c0abb76f6b79">
-<img width="200" alt="image" src="https://github.com/puja-urmi/Job-Insights-in-PySpark/assets/150852458/f31f0c91-2f39-489a-be38-69a620685b69">
-<img width="220" alt="image" src="https://github.com/puja-urmi/Job-Insights-in-PySpark/assets/150852458/07f76853-5e3d-47ce-8176-ce7322cf856d">
-<img width="200" alt="image" src="https://github.com/puja-urmi/Job-Insights-in-PySpark/assets/150852458/e1c8b520-7309-4bab-90d6-2781d8957ef2">
+<img width="190" alt="image" src="https://github.com/puja-urmi/Job-Insights-in-PySpark/assets/150852458/5f1c18a6-1266-4a1c-82bc-c0abb76f6b79">
+<img width="190" alt="image" src="https://github.com/puja-urmi/Job-Insights-in-PySpark/assets/150852458/f31f0c91-2f39-489a-be38-69a620685b69">
+<img width="200" alt="image" src="https://github.com/puja-urmi/Job-Insights-in-PySpark/assets/150852458/07f76853-5e3d-47ce-8176-ce7322cf856d">
+<img width="190" alt="image" src="https://github.com/puja-urmi/Job-Insights-in-PySpark/assets/150852458/e1c8b520-7309-4bab-90d6-2781d8957ef2">
 
 
 ## 4. Temporal Analysis to Explore Temporal Trends in Job Market using PySpark
